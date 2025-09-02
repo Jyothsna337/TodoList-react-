@@ -1,10 +1,10 @@
 import React from "react";
-import TodoList from "./Components/TodoList";
+import Profile from "./Components/Profile";
 
 const App = () => {
   return (
-    <div>
-      <TodoList />
+    <div className="app-container">
+      <Profile />
     </div>
   );
 };
